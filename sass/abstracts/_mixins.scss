@@ -1,0 +1,46 @@
+@mixin breakpoint($bp) {
+  @if $bp ==tablet {
+    @media (min-width: $bp-tablet) {
+      @content;
+    }
+  }
+
+  @if $bp ==tablethorizontal {
+    @media (min-width: $bp-tablet-horizontal) {
+      @content;
+    }
+  }
+
+  @if $bp ==desktop {
+    @media (min-width: $bp-desktop) {
+      @content;
+    }
+  }
+
+  @if $bp ==desktopxl {
+    @media (min-width: $bp-desktop-xl) {
+      @content;
+    }
+  }
+}
+
+@mixin reset-list() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin button($bg-color: $blue, $color: $white-bg) {
+  display: inline-block;
+  padding: 16px 34px;
+  color: $color;
+  background-color: $bg-color;
+  text-decoration: none;
+  border-radius: 28px;
+  position: relative;
+  z-index: 10;
+
+  &:hover {
+    background-color: lighten($bg-color, 10%);
+  }
+}

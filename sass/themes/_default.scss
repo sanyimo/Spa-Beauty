@@ -1,0 +1,44 @@
+html * {
+    font-family: $primary-font;
+}
+
+body {
+    overflow-x: hidden;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: $white-bg ;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 78%;
+    background-color: $green;
+    z-index: -1;
+    background-image: url('../../img/spa.png');
+    background-repeat: no-repeat;
+    background-position: left -130px top 20px;
+}
+
+.img-principal {
+    position: absolute;
+    top: 57%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    width: 88%;
+    height: auto;
+    z-index: 1;
+}
+
+.white-frame {
+    position: absolute;
+    bottom: -15%;
+    left: -1%;
+    width: 100%;
+    height: 32vh;
+    background-color: $white-div;
+    z-index: -1;
+}

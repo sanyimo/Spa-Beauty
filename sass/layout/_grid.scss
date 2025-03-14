@@ -1,0 +1,40 @@
+main section.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 50px 30px;
+    max-width: 600px;
+
+    gap: 72px;
+
+    &.features {
+        background-color: $white-div;
+        margin-left: 60px;
+
+        img {
+            background-color: $green;
+            align-items: center;
+            border-radius: 50%;
+            width: 72px;
+            height: 72px;
+            padding: 5px;
+            margin-left: 25px;
+
+
+        }
+    }
+
+    h3 {
+        font-size: 36px;
+        font-weight: 500;
+        color: $blue;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        color: $grey;
+        text-align: center;
+    }
+}

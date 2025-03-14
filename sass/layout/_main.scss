@@ -1,0 +1,35 @@
+.testimonials {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    .testimonial1, .testimonial2 {
+    display: block;
+    position: absolute;
+    max-width: 370px;
+    padding: 20px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    z-index: 3;
+    }
+    .testimonial1 {
+    top: -530px;
+    right: 80px;
+    }
+
+    .testimonial2 {
+    top: -240px;
+    right: 220px;
+    }
+    .name {
+        font-size: 18px;
+        font-weight: 700;
+        color: $blue;
+        margin-top: 10px;
+    }
+    .quote {
+        margin-bottom: 10px;
+    }
+}

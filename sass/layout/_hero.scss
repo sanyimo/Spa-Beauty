@@ -1,0 +1,51 @@
+.hero {
+display: inline-block;
+padding: 50px 100px;
+max-width: 60%;
+    &__title {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 75px;
+        text-align: left;
+        margin-bottom: 30px;
+        color: $blue;
+    }
+    &__subtitle {
+        font-size: 20px;
+        font-weight: 400;
+        color: $grey;
+        line-height: 40px;
+        margin-bottom: 56px;
+        max-width: 80%;
+    }
+    &__buttons {
+        display: inline-flex;
+        align-items: center;
+        gap: 40px;
+        &-video {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: $blue;
+            font-size: 18px;
+            padding: 20px;
+            z-index: 10;
+            &:hover {
+                text-decoration: underline;
+                
+                text-decoration-thickness: 2px;
+                transition: $blue 0.3s ease
+            }
+            
+            & img {
+                width: 48px;
+                height: 48px;
+                margin-right: 16px;
+                background-color: $white-div;
+                border-radius: 50%;
+                padding: 10px;
+            }
+        }
+    }
+
+}
