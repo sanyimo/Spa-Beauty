@@ -61,7 +61,7 @@ body {
     z-index: -1;
 }
 .white-field {
-    position: fixed;
+    position: absolute;
     background-image: none;
     background-color: $white-div;
     bottom: 0;
