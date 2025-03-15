@@ -2,15 +2,14 @@ main section.features {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    padding: 50px 30px;
-    max-width: 600px;
-
+    padding: 50px 50px;
+        max-width: 680px;
     gap: 72px;
 
     &.features {
         background-color: $white-div;
-        margin-left: 60px;
-
+        margin-left: 100px;
+            border-radius: 20px;
         img {
             background-color: $green;
             align-items: center;

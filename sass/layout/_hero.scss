@@ -1,6 +1,7 @@
 .hero {
 display: inline-block;
-padding: 50px 100px;
+padding: 50px 0;
+    margin-left: 100px;
 max-width: 60%;
     &__title {
         font-size: 64px;
@@ -9,6 +10,7 @@ max-width: 60%;
         text-align: left;
         margin-bottom: 30px;
         color: $blue;
+        width: 90%;
     }
     &__subtitle {
         font-size: 20px;
@@ -16,7 +18,7 @@ max-width: 60%;
         color: $grey;
         line-height: 40px;
         margin-bottom: 56px;
-        max-width: 80%;
+        max-width: 70%;
     }
     &__buttons {
         display: inline-flex;
