@@ -1,0 +1,22 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.header {
+    width: 100vw;
+    padding: 7rem 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    .logo {
+        display: block;
+        width: 21.2rem;
+    
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+}

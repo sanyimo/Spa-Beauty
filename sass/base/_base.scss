@@ -1,0 +1,17 @@
+@forward 'reset';
+@use '../abstracts/variables' as v;
+
+html {
+    font-family: v.$primary-font;
+}
+
+body {
+    min-width: 1920px;
+    max-width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    overflow-x: auto;
+    position: relative;
+    background: linear-gradient(to right, v.$white-bg 66.66%, v.$green 33.33%);
+    background-repeat: no-repeat;
+}

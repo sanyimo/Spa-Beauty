@@ -1,0 +1,13 @@
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    margin-left: 5.6rem;
+
+    img {
+        width: 3.2rem;
+        height: 3.2rem;
+        cursor: pointer;
+        object-fit: contain;
+    }
+}

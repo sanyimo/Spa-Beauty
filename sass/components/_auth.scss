@@ -1,0 +1,26 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.auth {
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 3.2rem;
+        margin-left: 5.6rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .login {
+        color: v.$blue;
+        font-size: 1.8rem;
+        text-decoration: underline;
+        font-family: v.$secundary-font;
+        
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
